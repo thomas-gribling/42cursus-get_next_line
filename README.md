@@ -1,5 +1,5 @@
 <h1 align="center">
-        📝 get_next_line
+        get_next_line
 </h1>
 
 <p align="center">
@@ -7,14 +7,14 @@
         Final grade: <b>125/100</b>
 </p>
 
-# 📰 Subject
+# 📝 Subject
 This project consists in coding a function, named `get_next_line`, that takes a file descriptor as parameter and returns the next line every time it's called.<br>
 The bonus part of this project consists in making it work with multiple file descriptors at once.<br>
 The function is prototyped as following:
 ```c
 char  *get_next_line(int fd);
 ```
-You must also be able to define a `BUFFER_SIZE` value while compiling, without affecting the output.
+You must also be able to define, or not, a `BUFFER_SIZE` value while compiling, it mustn't affect the output.
 
 # 🖥️ Usage
 This project doesn't ask for a Makefile, so in order to compile it, you have two ways.<br>
